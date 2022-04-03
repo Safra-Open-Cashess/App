@@ -22,3 +22,6 @@ JavaScript é uma linguegem de programação interpretada multiparadigma utiliza
 
 # Tela do App Mobile - Xamarin
 ![DIAGRAMA](https://github.com/Safra-Open-Cashless/App/blob/main/Assets/app-img.png?raw=true)
+
+# Tela do Sistema de Supervisão
+![DIAGRAMA](https://github.com/Safra-Open-Cashless/App/blob/main/Assets/sistema-supervisao.png?raw=true)

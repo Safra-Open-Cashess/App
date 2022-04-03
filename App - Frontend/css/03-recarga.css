@@ -1,0 +1,16 @@
+h1{
+    font-size: 25px;
+}
+
+.opcoes-recarga{
+    margin-top: 50px;
+}
+
+.opcoes-recarga > div {
+    margin: 10px 0;
+}
+
+.titulo-opcoes{
+    font-weight: bold;
+    text-align: center;
+}

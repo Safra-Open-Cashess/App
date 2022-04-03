@@ -1,0 +1,23 @@
+h1{
+    font-size: 25px;
+}
+
+.lista-instituicoes > div{
+    margin-top: 10px;
+}
+
+.titulo-inst{
+    text-align: center;
+    font-weight: bold;
+}
+
+.find{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px
+}
+
+.find img{
+    margin: 0 5px -10px 0;
+}

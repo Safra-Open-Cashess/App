@@ -1,0 +1,27 @@
+.person-msg{
+    text-align: right;
+}
+
+.display-none{
+    display: none;
+}
+
+.extrato-item{
+    display: flex;
+    padding: 5px;
+}
+
+#lista-extrato > div:nth-child(2n+1){
+    background-color: rgb(192, 192, 192);
+    border-radius: 5px;
+}
+
+.extrato-item div:first-child{
+    font-weight: bold;
+    width: 100%;
+}
+
+.extrato-item div:last-child{
+    min-width: 80px;
+    text-align: right;
+}

@@ -1,3 +1,98 @@
-html {
-    
+html, body {
+    background-color: #CACFD3;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+nav{
+    background-color: #184F6E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0 15px 0;
+}
+
+nav img.logo{
+    max-width: 90%;
+}
+
+main{
+    padding: 12px 0;
+    margin: 0 8px;
+    flex-grow: 1;
+}
+
+footer{
+    flex-shrink: 0;
+}
+
+footer .footer-msg{
+    background-color: #184F6E;
+    text-align: center;
+    color: rgb(212, 212, 212);
+    font-size: 12px;
+    padding: 10px 0;
+    margin-top: 15px;
+}
+
+h1{
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+hr{
+    border: none;
+    background-color: none;
+    border-bottom: 1px solid rgb(110, 110, 110);
+}
+
+a, a:hover, a:visited{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn, .btn-small{
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #184F6E;
+    padding: 15px 25px;
+    border-radius: 25px;
+}
+
+.btn-small{
+    font-weight: normal;
+    width: 170px;
+    padding: 10px 18px;
+}
+
+input{
+    font-size: 35px;
+    width: 95%;
+    padding: 5px 0 5px 10px;
+    background-color: #CACFD3;
+    border: none;
+    border-bottom: 2px solid #000;
+    outline: none;
+    font-weight: bold;
+}
+
+.desc-input{
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.text-center{
+    text-align: center;
 }

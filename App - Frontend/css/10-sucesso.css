@@ -1,0 +1,40 @@
+.msg-sucesso{
+    display: flex;
+    width: 70%;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+.msg-sucesso img{
+    margin: 8px 0 0 0;
+}
+
+.checkout{
+    background-color: #fff;
+    padding: 15px;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.checkout > div {
+    margin: 15px 0;
+}
+
+.checkout .titulo-item {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(35, 88, 168);
+    margin-bottom: 5px;
+}
+
+.checkout .item-valor {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.checkout .item-desc {
+
+}

@@ -1,0 +1,62 @@
+nav{
+    background-color: #151E45;
+}
+
+.titulo-safra{
+    background-color: #C4AC6C;
+    color: #151E45;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 15px 0;
+    margin: 0 20px;
+}
+
+.checkout{
+    background-color: #151E45;
+    padding: 15px;
+    margin: 20px;
+    margin-top: 6px;
+}
+
+.checkout > div {
+    margin: 15px 0;
+}
+
+.checkout .titulo-item {
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.checkout .item-valor {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.checkout .item-valor2 {
+    color: #fff !important;
+}
+
+.checkout .item-desc {
+    color: #C4AC6C;
+}
+
+.termos{
+    text-align: center;
+    color: red;
+    font-size: 15px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.btn-small{
+    background-color: #C4AC6C !important;
+    color: #151E45 !important;
+    font-weight: bold;
+}
+
+.footer-msg{
+    background-color: #151E45 !important;
+}

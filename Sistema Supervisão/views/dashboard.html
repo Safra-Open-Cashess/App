@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../plugins/fontawesome/css/all.min.css">
+    <title>Dashboard - Open Cashless</title>
+</head>
+<body>
+    
+    <div class="flex-dashboard">
+        
+        <sidebar>
+            <div class="sidebar-title">
+                <img src="../images/logo-slogan-transparente.png" alt="">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <i class="fa-brands fa-adn"></i>
+                        <a href="#">Admin</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-user"></i>
+                        <a href="#">Clientes</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-file-contract"></i>
+                        <a href="#">Acompanhamento de Pulseiras</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-file-contract"></i>
+                        <a href="#">Produtos</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-file-contract"></i>
+                        <a href="#">Financeiro</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-file-contract"></i>
+                        <a href="#">Acompanhamento de Tickets</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-file-contract"></i>
+                        <a href="#">Relatórios</a>
+                    </li>
+                </ul>
+            </div>
+        </sidebar>
+
+        <main>
+            <header>
+                <a href="#"><i class="fa-solid fa-house"></i> Evento - Informações Gerais</a>
+                <a href="../index.html"><i class="fa-solid fa-arrow-right-from-bracket"></i> Logout</a>
+            </header>
+            <div class="main-content">
+                <div id="um">
+                    <div class="dados">
+                        <p>Pulseiras cadastradas:</p>
+                        <h1>15.000</h1>
+                    </div>
+                    <div class="dados">
+                        <p>Pulseiras ativas:</p>
+                        <h1>10.900</h1>
+                    </div>
+                    <div class="dados">
+                        <p>Valor médio por pulseira:</p>
+                        <h1>R$150,00</h1>
+                    </div>
+                </div>
+                <div id="dois">
+                    <canvas class="line-chart2"></canvas>
+                </div>
+                <div id="tres">
+                    <canvas class="line-chart3"></canvas>
+                </div>       
+            </div>
+        </main>
+
+    </div>
+    
+    
+    <script src="../plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../plugins/fontawesome/js/all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
+    <script src="../script.js"></script>
+</body>
+</html>

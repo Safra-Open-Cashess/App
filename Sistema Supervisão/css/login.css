@@ -1,0 +1,80 @@
+.login {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #184E6E;
+}
+
+.login-form {
+    color: #fff;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-login {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-login img {
+    position: relative;
+    bottom: 40px;
+    width: 85%;
+}
+
+.banner-login #img-safra {
+    position: relative;
+    bottom: 200px;
+    left: 200px;
+    width: 15%;
+}
+
+.banner-login h2 {
+    position: relative;
+    bottom: 40px;
+}
+
+.login-form-wrapper {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+.login-form-wrapper button {
+    width: 100%;
+    color: #fff;
+    background-color: #2A2A5C;
+}
+
+.login-form-wrapper button:hover {
+    color: #fff;
+    transform: scale(1.07);
+    transition: .2s;
+}
+
+.login-form-wrapper button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* @media screen and (max-width: 800p) {
+    .banner-login {
+        width: 50%;
+        padding: 0 2%;
+    }
+
+    .banner-login img {
+        width: 100%;
+    }
+} */

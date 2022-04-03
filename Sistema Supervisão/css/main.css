@@ -1,0 +1,55 @@
+main {
+    display: block;
+    height: 100%;
+    width: calc(100% - 300px);
+}
+
+main .main-content {
+    padding: 30px;
+    width: 100%;
+    height: calc(100% - 90px);
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#um {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+#um .dados {
+    margin: 20px;
+    background-color: #13385B;
+    color: white;
+    -webkit-box-shadow: 5px 5px 15px 5px #9b9595; 
+    box-shadow: 5px 5px 15px 5px #9b9595;
+    max-height: 130px;
+}
+
+#um .dados p{
+    margin: 15px;
+}
+
+#um .dados h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+#dois {
+    width: 45%;
+    -webkit-box-shadow: 5px 5px 15px 5px #9b9595; 
+    box-shadow: 5px 5px 15px 5px #9b9595;
+    margin-right: 10px;
+}
+
+#tres {
+    width: 45%;
+    -webkit-box-shadow: 5px 5px 15px 5px #9b9595; 
+    box-shadow: 5px 5px 15px 5px #9b9595;
+    margin-left: 10px;
+}

@@ -8,6 +8,7 @@ Aplicações desenvolvidas para o **Hackathon 2022 do Banco Safra** (Time 3)
 
 ## Link teste
 [http://opencashless.wilson.eng.br/app](http://opencashless.wilson.eng.br/app)
+Obs: site utilizado para celular (webview).
 
 ## Tecnologias
 

@@ -6,6 +6,9 @@ Aplicativo desenvolvido para administração e supervisão do Safra Open Cashles
 ## Motivação
 Aplicações desenvolvidas para o **Hackathon 2022 do Banco Safra** (Time 3)
 
+## Link teste
+[http://opencashless.wilson.eng.br/app](http://opencashless.wilson.eng.br/app)
+
 ## Tecnologias
 
 ### [C# - Xamarin](https://docs.microsoft.com/pt-br/xamarin/get-started/what-is-xamarin)
